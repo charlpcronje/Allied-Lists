@@ -1,6 +1,6 @@
 // **service-worker.js**
 
-const CACHE_NAME = 'pwa-list-app-cache';
+const CACHE_NAME = 'pwa-list-app-cache-1';
 const urlsToCache = [
     '/',
     '/index.html',

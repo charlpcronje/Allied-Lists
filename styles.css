@@ -1,3 +1,83 @@
+/* index.html */
+body {
+    background-color: #1a202c;
+    /* Dark background */
+    color: #cbd5e0;
+    /* Light text color */
+}
+
+.header,
+.button {
+    background-color: #2d3748;
+    /* Darker background for header and buttons */
+}
+
+.user-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20%;
+}
+
+.user-selection img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .user-selection img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.pacifico-font {
+    font-family: 'Pacifico', cursive;
+}
+
+/* Main.html */
+body {
+    background-color: #1a202c;
+    /* Dark background */
+    color: #cbd5e0;
+    /* Light text color */
+}
+
+.header,
+.button {
+    background-color: #2d3748;
+    /* Darker background for header and buttons */
+}
+
+.user-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20%;
+}
+
+.user-selection img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .user-selection img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.pacifico-font {
+    font-family: 'Pacifico', cursive;
+}
+
 body {
     background-color: #1a202c;
     color: #cbd5e0;

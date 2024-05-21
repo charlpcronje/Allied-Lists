@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/icons/android-chrome-512x512.png">
+    <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    <title>Charl & Nade Lists</title>
+    <style>
+        body {
+            background-color: #1a202c;
+            /* Dark background */
+            color: #cbd5e0;
+            /* Light text color */
+        }
+
+        .header,
+        .button {
+            background-color: #2d3748;
+            /* Darker background for header and buttons */
+        }
+
+        .user-selection {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 20%;
+        }
+
+        .user-selection img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        @media (min-width: 768px) {
+            .user-selection img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+
+        .pacifico-font {
+            font-family: 'Pacifico', cursive;
+        }
+    </style>
+    <meta http-equiv="origin-trial" content="b523k523ijg52i53ug">
+</head>
+
+<body class="bg-gray-900">
+    <header class="header bg-blue-800 p-4 text-white text-center">
+        <h1 class="text-4xl font-bold text-center text-white mb-2 pacifico-font">Charl & Nade Lists</h1>
+    </header>
+    <main class="user-selection">
+        <div id="charl" class="user">
+            <img src="./img/charl.png" alt="Charl">
+            <p class="text-center mt-2">Charl</p>
+        </div>
+        <div id="nade" class="user">
+            <img src="./img/nade.png" alt="Nade">
+            <p class="text-center mt-2">Nade</p>
+        </div>
+    </main>
+    <script type="module" src="login.js"></script>
+</body>
+
+</html>

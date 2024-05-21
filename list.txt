@@ -1,0 +1,43 @@
+.
+├── app.js
+├── combine.md
+├── combine_files.sh
+├── docs
+│   └── prompt.md
+├── icons
+│   ├── add_item.png
+│   ├── add_list.png
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── apple-touch-icon.png
+│   ├── browserconfig.xml
+│   ├── default_small.png
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   ├── mstile-150x150.png
+│   ├── safari-pinned-tab.svg
+│   └── site.webmanifest
+├── img
+│   ├── add_item.png
+│   ├── add_list.png
+│   ├── charl.png
+│   ├── charl_small.png
+│   ├── default_small.png
+│   ├── nade.png
+│   ├── nade_small.png
+│   └── pixelcut-export (3).png
+├── index.html
+├── list.txt
+├── login.js
+├── logs
+│   ├── access.log
+│   └── error.log
+├── main.html
+├── manifest.json
+├── package-lock.json
+├── package.json
+├── service-worker.js
+└── styles.css
+
+3009 directories, 9866 files
